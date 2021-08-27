@@ -8,6 +8,7 @@ import AddCustomer from "./containers/CustomersManage/AddCustomer";
 import ListCustomer from "./containers/CustomersManage/ListCustomer";
 import Main from "./containers/Main";
 import NotFound from "./containers/NotFound";
+import ListNotification from "./containers/Notification/ListNotification";
 import InforPost1 from "./containers/PostMustVerify/InforPost1";
 import ListPostMustVerify from "./containers/PostMustVerify/ListPostMustVerify";
 import InforPost from "./containers/PostsManage/InforPost";
@@ -58,6 +59,8 @@ function App() {
         <PrivateRoute path="/tutorview/:tutorId" component={InforTutor1} />
 
         <PrivateRoute path="/list-class-request-open" component={ClassRequestOpen} />
+
+        <PrivateRoute path="/notifycation" component={ListNotification} />
 
 
         <Route component={NotFound} />

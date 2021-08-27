@@ -46,51 +46,51 @@ const Sidebar = (props) => {
           >
             <li className="nav-item">
               <NavLink to={`/home`} className="nav-link">
-                <i className="nav-icon fas fa-tachometer-alt"></i>
+                <i className="nav-icon fas fa-tachometer-alt"></i>&nbsp; 
                 <p>Dashboard</p>
               </NavLink>
             </li>
             <li className="nav-item">
               <NavLink to={`/listcustomer`} className="nav-link">
-                <i class="fas fa-users-cog"></i>
+                <i class="fas fa-users-cog"></i>&nbsp; 
                 <p> Manage Users</p>
               </NavLink>
             </li>
             <li className="nav-item">
               <NavLink to={`/list-tutor-must-verify`} className="nav-link">
-                <i class="fas fa-user-check"></i>
+                <i class="fas fa-user-check"></i>&nbsp; 
                 <p> Verify Tutor</p>
               </NavLink>
             </li>
             <li className="nav-item">
               <NavLink to={`/list-tutor-completed`} className="nav-link">
-                <i class="fas fa-user-graduate"> </i>
+                <i class="fas fa-user-graduate"> </i>&nbsp; 
 
                 <p>Completed Tutor</p>
               </NavLink>
             </li>
             <li className="nav-item">
               <NavLink to={`/listpost`} className="nav-link">
-                <i class="fas fa-envelope-open-text"></i>
+                <i class="fas fa-envelope-open-text"></i>&nbsp;
 
                 <p>Manage Posts</p>
               </NavLink>
             </li>
             <li className="nav-item">
               <NavLink to={`/listpost-must-verify`} className="nav-link">
-                <i class="fas fa-calendar-check"></i>
+                <i class="fas fa-calendar-check"></i>&nbsp; 
                 <p>Verify Posts</p>
               </NavLink>
             </li>
-            {/* <li className="nav-item">
-              <NavLink to={`/list-class-request-open`} className="nav-link">
-                <i class=" nav-icon fas fa-list-alt"></i>
-                <p>Class Request open</p>
+            <li className="nav-item">
+              <NavLink to={`/notifycation`} className="nav-link">
+                <i class=" nav-icon fas fa-list-alt"></i>&nbsp; 
+                <p>Notification</p>
               </NavLink>
-            </li> */}
+            </li>
             <li className="nav-item">
               <NavLink to={`/updatepass`} className="nav-link">
-                <i class="fas fa-unlock-alt"></i>
+                <i class="fas fa-unlock-alt"></i>&nbsp; 
                 <p>Update Password</p>
               </NavLink>
             </li>

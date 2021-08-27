@@ -128,7 +128,7 @@ function ListCustomer(props) {
                         </label>
                       </div> */}
                       <Link className="btn btn-success" to="/addcustomer">
-                        Add Customer
+                        Add User
                       </Link>
                     </div>
                     <div className="col-sm-12 col-md-6">
